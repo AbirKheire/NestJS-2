@@ -7,8 +7,7 @@ export class AppController {
 
   }
 
-  @Get() // Initialisation d'une requête GET
-  // Méthode associée à la route '/'
+  @Get() // Initialisation d'une requête GET pour la route '/'
   getHello(): string {
     return this.appService.getHello();
   }
